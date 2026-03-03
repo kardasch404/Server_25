@@ -161,16 +161,16 @@ graph TB
     end
     
     subgraph "Service Layer"
-        AUTH[🔐 Auth Service<br/>REST: 4001 | gRPC: 5001<br/>JWT, RBAC, Permissions]
-        PROFILE[👤 Profile Service<br/>REST: 4002 | gRPC: 5002<br/>CV, Experience, Skills]
-        JOB[💼 Job Service<br/>REST: 4003 | gRPC: 5003<br/>Scraping, Search, Matching]
-        APP[📧 Application Service<br/>REST: 4004 | gRPC: 5004<br/>Apply, Email Campaigns]
-        NET[🤝 Networking Service<br/>REST: 4005 | gRPC: 5005<br/>Auto Connect, Follow-up]
-        PAY[💳 Payment Service<br/>REST: 4006 | gRPC: 5006<br/>Subscriptions, Invoices]
-        AI[🤖 AI Service<br/>REST: 4007 | gRPC: 5007<br/>CV Analysis, Recommendations]
-        B2B[🏢 B2B API Service<br/>REST: 4008 | gRPC: 5008<br/>Enterprise Data Access]
-        NOTIFY[🔔 Notification Service<br/>REST: 4009 | gRPC: 5009<br/>Email, SMS, Push]
-        ANALYTICS[📊 Analytics Service<br/>REST: 4010 | gRPC: 5010<br/>Statistics, Reports]
+        AUTH[🔐 Auth Service<br/>REST 4001 - gRPC 5001<br/>JWT, RBAC, Permissions]
+        PROFILE[👤 Profile Service<br/>REST 4002 - gRPC 5002<br/>CV, Experience, Skills]
+        JOB[💼 Job Service<br/>REST 4003 - gRPC 5003<br/>Scraping, Search, Matching]
+        APP[📧 Application Service<br/>REST 4004 - gRPC 5004<br/>Apply, Email Campaigns]
+        NET[🤝 Networking Service<br/>REST 4005 - gRPC 5005<br/>Auto Connect, Follow-up]
+        PAY[💳 Payment Service<br/>REST 4006 - gRPC 5006<br/>Subscriptions, Invoices]
+        AI[🤖 AI Service<br/>REST 4007 - gRPC 5007<br/>CV Analysis, Recommendations]
+        B2B[🏢 B2B API Service<br/>REST 4008 - gRPC 5008<br/>Enterprise Data Access]
+        NOTIFY[🔔 Notification Service<br/>REST 4009 - gRPC 5009<br/>Email, SMS, Push]
+        ANALYTICS[📊 Analytics Service<br/>REST 4010 - gRPC 5010<br/>Statistics, Reports]
     end
     
     subgraph "Data Layer"
